@@ -1,9 +1,9 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		title: "Freezer by Jhon",
+		name: "João Paulo Campos",
+		email: "email@email.com",
+		logo: "../freezer.jpeg",
 	},
 
 	socials: {
@@ -16,67 +16,58 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Aluguel de freezers para o seu evento.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Transformamos o seu evento em um momento especial! Alugue o seu freezer e deixe que fazemos o resto! Entregamos e buscamos os equipamentos para você só precisar aproveitar o evento.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "Alugamos freezers com excelencia para você.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Levamos seu freezer onde você estiver para maior comodidade e conforto! Prezamos pela eficiência e qualidade no atendimento.",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Entre em contato conosco!",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"",
 	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Cliente 1",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Freezers de excelente qualidade e que fizeram o meu evento único! Equipe super dedicada e atenciosa!",
+			logo: "https://img.freepik.com/premium-photo/standing-against-grey-background-young-adult-woman-formal-clothes-is-indoors-office_146671-56349.jpg",
+			linkText: "",
+			link: "",
 		},
 
 		{
-			title: "Project 2",
+			title: "Cliente 2",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Clientes felizes e bebidas geladas! Esse foi o resultado entregado graças ao trabalho dessa equipe.",
+			logo: "https://img.freepik.com/premium-photo/concept-business-with-young-attractive-business-woman_185193-80314.jpg",
+			linkText: "",
+			link: "",
 		},
 
 		{
-			title: "Project 3",
+			title: "Cliente 3",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Entrega rápida e sem complicações! Precisava do serviço com urgência e resolveram o meu problema o mais rápido possível.",
+			logo: "https://img.freepik.com/premium-photo/looking-confidence-handsome-caucasian-white-person-businessman-men-male-adult-portrait-face-business_163305-255259.jpg",
+			linkText: "",
+			link: "",
 		},
 
 		{
-			title: "Project 4",
+			title: "Cliente 4",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Um negócio de pessoas para pessoas! Adorei a equipe e achei o serviço incrível.",
+			logo: "https://img.freepik.com/free-photo/portrait-business-woman-with-enthusiastic-face-expression-smiling-looking-confident-standing-s_1258-88087.jpg",
+			linkText: "",
+			link: "",
 		},
 	],
 };

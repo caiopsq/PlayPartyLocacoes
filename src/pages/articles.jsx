@@ -3,8 +3,12 @@ import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
-import Logo from "../components/common/logo";
-import Article from "../components/articles/article";
+import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faTwitter,
+	faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -35,7 +39,7 @@ const Articles = () => {
 				<div className="content-wrapper">
 					<div className="articles-logo-container">
 						<div className="articles-logo">
-							<Logo width={46} />
+							
 						</div>
 					</div>
 
@@ -50,20 +54,38 @@ const Articles = () => {
 
 						<div className="articles-container">
 							<div className="articles-wrapper">
-								{myArticles.map((article, index) => (
-									<div
-										className="articles-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
+							<div className="homepage-socials">
+							<a
+								href={INFO.socials.instagram}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faInstagram}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={INFO.socials.twitter}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faTwitter}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={`mailto:${INFO.main.email}`}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faMailBulk}
+									className="homepage-social-icon"
+								/>
+							</a>
+						</div>
 							</div>
 						</div>
 					</div>

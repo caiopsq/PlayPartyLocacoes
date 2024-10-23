@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
-import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
@@ -21,7 +20,7 @@ const About = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`About | ${INFO.main.title}`}</title>
+				<title>{`Sobre | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -34,7 +33,7 @@ const About = () => {
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">
-							<Logo width={46} />
+
 						</div>
 					</div>
 
@@ -53,16 +52,16 @@ const About = () => {
 							<div className="about-left-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
-										<img
+										{/* <img
 											src="about.jpg"
 											alt="about"
 											className="about-image"
-										/>
+										/> */}
 									</div>
 								</div>
 
 								<div className="about-socials">
-									<Socials />
+									{/* <Socials /> */}
 								</div>
 							</div>
 						</div>

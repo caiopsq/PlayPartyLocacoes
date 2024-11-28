@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faTwitter,
 	faInstagram,
+	faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 
 // import Logo from "../components/common/logo";
@@ -14,6 +15,7 @@ import NavBar from "../components/common/navBar";
 // import Article from "../components/homepage/article";
 // import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
+import WpButton from "../components/common/wpButton";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -80,6 +82,7 @@ const Homepage = () => {
 			<div className="page-content">
 				<NavBar active="home" />
 				<div className="content-wrapper">
+				<WpButton />
 					<div className="homepage-logo-container">
 						{/* <div style={logoStyle}>
 							<Logo width={logoSize} link={false} />
@@ -102,7 +105,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="https://images.tcdn.com.br/img/img_prod/1292607/freezer_horizontal_dupla_acao_com_2_tampas_cega_419_litros_bivolt_da420ift00_metalfrio_7093_1_d01e5073fc6d307c93f345b40b370aa3.jpeg"
+											src={INFO.main.home}
 											alt="about"
 											className="homepage-image"
 										/>
@@ -116,6 +119,14 @@ const Homepage = () => {
 							<AllProjects />
 						</div>
 						<div className="homepage-socials">
+							<a href={INFO.socials.whatsapp}
+								target="blank"
+								rel="noreferrer">
+									<FontAwesomeIcon
+										icon={faWhatsapp}
+										className="homepage-social-icon"
+									/>
+								</a>
 							<a
 								href={INFO.socials.instagram}
 								target="_blank"

@@ -1,28 +1,34 @@
 @import "../../../data/styles.css";
 
-@media (prefers-color-scheme: black){
+/* @media (prefers-color-scheme: black){
 	body{
 		--navbar-background: #323232;
 		--navbar-color: white;
 	}
-}
+} */
 
-.nav-container {
+/* .nav-container {
 	margin: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
+} */
 
-.navbar {
+.wpp-button {
 	display: flex;
-	justify-content: center;
+	justify-content: right;
 	align-items: center;
 	position: fixed;
 	top: 3vh;
 	z-index: 999;
+	height: 6%
 }
 
+.wp-icon{
+	color: var(--primary-color);
+	height: 100%;
+}
+/* 
 .nav-background {
 	width: 380px;
 	height: 40px;
@@ -78,4 +84,4 @@
 	.nav-item {
 		font-weight: bold;
 	}
-}
+} */

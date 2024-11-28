@@ -17,8 +17,18 @@
 	background-color: rgb(0, 0, 0);
 }
 
+/* @media (prefers-color-scheme: dark){
+	.page-content{
+		--primary-color: white;
+		--color-background: #1f2023;
+		--color-forebackground: white;
+		--color-background-before: #000000;
+		--color-background-before-border: #040404;
+	}
+} */
+
 .page-content {
-	background-color: white;
+	background-color: var(--color-background);
 	position: relative;
 }
 

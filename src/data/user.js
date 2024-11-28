@@ -1,30 +1,32 @@
 const INFO = {
 	main: {
-		title: "Freezer by Jhon",
-		name: "João Paulo Campos",
-		email: "email@email.com",
+		title: "PlayParty Locações",
+		name: "PlayParty Locações",
+		email: "playpartylocacoesdf@gmail.com",
 		logo: "../freezer.jpeg",
+		home: "../freezer.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
 		github: "https://github.com/",
 		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
+		instagram: "https://www.instagram.com/playpartylocacoes/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
+		whatsapp: "https://api.whatsapp.com/send?1=pt_BR&phone=5561992149916&text=Olá%20gostaria%20de%20fazer%20um%20orçamento!",
 	},
 
 	homepage: {
-		title: "Aluguel de freezers para o seu evento.",
+		title: "Aluguel de freezers, cadeiras, mesas e forros de mesa.",
 		description:
-			"Transformamos o seu evento em um momento especial! Alugue o seu freezer e deixe que fazemos o resto! Entregamos e buscamos os equipamentos para você só precisar aproveitar o evento.",
+			"Transformamos o seu evento em um momento especial! \nAlugue tudo o que é necessário para fazer o seu evento incrível.",
 	},
 
 	about: {
-		title: "Alugamos freezers com excelencia para você.",
+		title: "Fornecemos tudo o que é necessário para seu evento.",
 		description:
-			"Levamos seu freezer onde você estiver para maior comodidade e conforto! Prezamos pela eficiência e qualidade no atendimento.",
+			"Trabalhamos a mais de 5 anos prestando um serviço com qualidade e agilidade alugando e entregando freezers, cadeiras, mesas e forros de mesa para que o seu evento seja completo.",
 	},
 
 	articles: {

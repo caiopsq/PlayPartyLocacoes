@@ -1,11 +1,11 @@
 {
-	"name": "reactfolio",
+	"name": "PlaypartyLocacoes",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Caio Queiroz",
+		"email": "caio.queirozz@outlook.com",
+		"url": "https://www.caioqueiroz.com"
 	},
 	"license": "MIT",
 	"private": true,

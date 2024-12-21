@@ -3,7 +3,7 @@ const INFO = {
 		title: "PlayParty Locações",
 		name: "PlayParty Locações",
 		email: "playpartylocacoesdf@gmail.com",
-		logo: "../freezer.jpeg",
+		logo: "../playparty_logo.jpg",
 		home: "../freezer.png",
 	},
 

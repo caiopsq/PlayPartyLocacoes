@@ -39,7 +39,7 @@ const Articles = () => {
 				<div className="content-wrapper">
 					<div className="articles-logo-container">
 						<div className="articles-logo">
-							
+
 						</div>
 					</div>
 

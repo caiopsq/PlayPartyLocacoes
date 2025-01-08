@@ -37,37 +37,37 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Cliente 1",
+			title: "Maria Joselmaa costa",
 			description:
-				"Freezers de excelente qualidade e que fizeram o meu evento único! Equipe super dedicada e atenciosa!",
-			logo: "https://img.freepik.com/premium-photo/standing-against-grey-background-young-adult-woman-formal-clothes-is-indoors-office_146671-56349.jpg",
+				"Adorei o atendimento, a entrega !\nSobre as mesas que aluguei super limpas e forros\nSem mancha e bem passado ....adorei super indico.",
+			logo: "https://lh3.googleusercontent.com/a-/ALV-UjWkBNwoeJtfaSANjCY_3tnjedbMy8ApdrE6c9MdaMcM_32tVUVNCQ=s128-c0x00000000-cc-rp-mo",
 			linkText: "",
 			link: "",
 		},
 
 		{
-			title: "Cliente 2",
+			title: "Luana Candido",
 			description:
-				"Clientes felizes e bebidas geladas! Esse foi o resultado entregado graças ao trabalho dessa equipe.",
-			logo: "https://img.freepik.com/premium-photo/concept-business-with-young-attractive-business-woman_185193-80314.jpg",
+				"Esses dois profissionais são  um espetáculo, trabalho perfeito,  que Deus continue a abençoar vcs .Meus parabens .",
+			logo: "https://lh3.googleusercontent.com/a-/ALV-UjWy60cxFQK3m7cw1RqxjXm1UAgBdMNKWAEvxaClXT00_pt34aJl=s128-c0x00000000-cc-rp-mo",
 			linkText: "",
 			link: "",
 		},
 
 		{
-			title: "Cliente 3",
+			title: "Wildson Soares",
 			description:
 				"Entrega rápida e sem complicações! Precisava do serviço com urgência e resolveram o meu problema o mais rápido possível.",
-			logo: "https://img.freepik.com/premium-photo/looking-confidence-handsome-caucasian-white-person-businessman-men-male-adult-portrait-face-business_163305-255259.jpg",
+			logo: "https://lh3.googleusercontent.com/a-/ALV-UjVb2Mi0WrL9hVC7GNsqHTa0ozmKHmKb_ify1R2ei01SwqCSTgOZ=s128-c0x00000000-cc-rp-mo",
 			linkText: "",
 			link: "",
 		},
 
 		{
-			title: "Cliente 4",
+			title: "Maristela Rodrigues",
 			description:
-				"Um negócio de pessoas para pessoas! Adorei a equipe e achei o serviço incrível.",
-			logo: "https://img.freepik.com/free-photo/portrait-business-woman-with-enthusiastic-face-expression-smiling-looking-confident-standing-s_1258-88087.jpg",
+				"Excelente atendimento, muito atenciosos e carismático com o cliente",
+			logo: "https://lh3.googleusercontent.com/a-/ALV-UjWy60cxFQK3m7cw1RqxjXm1UAgBdMNKWAEvxaClXT00_pt34aJl=s128-c0x00000000-cc-rp-mo",
 			linkText: "",
 			link: "",
 		},

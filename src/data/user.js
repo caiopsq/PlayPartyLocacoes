@@ -67,7 +67,7 @@ const INFO = {
 			title: "Maristela Rodrigues",
 			description:
 				"Excelente atendimento, muito atenciosos e carismático com o cliente",
-			logo: "https://lh3.googleusercontent.com/a-/ALV-UjWy60cxFQK3m7cw1RqxjXm1UAgBdMNKWAEvxaClXT00_pt34aJl=s128-c0x00000000-cc-rp-mo",
+			logo: "https://lh3.googleusercontent.com/a-/ALV-UjV3GW2pp-vW2IZA_I1b0rVQt42na-FGQJfWWczgFbIFo2Ru56y-=s128-c0x00000000-cc-rp-mo",
 			linkText: "",
 			link: "",
 		},

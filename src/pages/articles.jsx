@@ -12,6 +12,7 @@ import {
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
+import PlaceReviews from "../components/about/reviews";
 import myArticles from "../data/articles";
 
 import "./styles/articles.css";
@@ -50,6 +51,7 @@ const Articles = () => {
 
 						<div className="subtitle articles-subtitle">
 							{INFO.articles.description}
+							<PlaceReviews></PlaceReviews>
 						</div>
 
 						<div className="articles-container">

@@ -6,13 +6,13 @@ const PlaceReviews = () => {
 
   const API_URL = 'https://maps.googleapis.com/maps/api/place/details/json';
   const PLACE_ID = 'ChIJB3iO-TUTWpMRaBPKW2d45P4';
-  const API_KEY = 'AIzaSyDzCO-QuQD1zwW4H0hYfge-XbjsrOIE7Zo';
+  const API_KEY = '';
 
   const fetchReviews = async () => {
     try {
       
       const response = await fetch(
-        `https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJB3iO-TUTWpMRaBPKW2d45P4&fields=reviews&key=AIzaSyDzCO-QuQD1zwW4H0hYfge-XbjsrOIE7Zo`, {
+        `https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJB3iO-TUTWpMRaBPKW2d45P4&fields=reviews&key=${API_KEY}`, {
           method: 'GET'
         }
       )

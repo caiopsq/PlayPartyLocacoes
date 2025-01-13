@@ -6,7 +6,7 @@ const PlaceReviews = () => {
 
   const API_URL = 'https://maps.googleapis.com/maps/api/place/details/json';
   const PLACE_ID = 'ChIJB3iO-TUTWpMRaBPKW2d45P4';
-  const API_KEY = '';
+  const API_KEY = 'AIzaSyDzCO-QuQD1zwW4H0hYfge-XbjsrOIE7Zo';
 
   const fetchReviews = async () => {
     try {
